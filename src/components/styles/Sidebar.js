@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     width: 250px;
     height:100vh;
-    border: 1px solid red;
+    
     padding:38px 16px;
     line-height: 150%;
 
@@ -34,10 +34,14 @@ export const Dashboard = styled.div`
 `
 
 export const Items = styled.div`
+    display: flex;
+    align-items: center;
     color: var(--gray-gray-400, #A0AEC0);    
     font-size: 12px;    
     font-weight: 700;  
     cursor: pointer;
+    padding: 15px 10px;    
+    
 
     &:hover{
         border:1px solid #FFF;
