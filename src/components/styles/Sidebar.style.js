@@ -5,8 +5,7 @@ export const Container = styled.div`
     display: flex;  
     flex-direction: column;
     width: 250px;
-    height:100vh;
-    
+    height:100vh;    
     padding:38px 16px;
     line-height: 150%;
 
@@ -23,14 +22,12 @@ export const LogoWrapper = styled.div`
 export const Logo = styled.img`
     width: 22px;
     height: 23px;
-    margin-right: 12px;
-    
+    margin-right: 12px;    
 `
 
 export const Dashboard = styled.div`
     display:flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 `
 
 export const Items = styled.div`

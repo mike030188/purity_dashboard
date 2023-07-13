@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./components/styles/Global";
-import Sidebar from "./components/pages/Sidebar";
+import GlobalStyles from "./components/styles/Global.style";
+import Header from "./components/pages/Header";
+
 
 const theme = {
   colors: {
@@ -17,7 +18,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles/>
-        <Sidebar/>
+        <Header/>      
+
         
       </>
     </ThemeProvider>

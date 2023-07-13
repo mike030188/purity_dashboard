@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsFillBarChartFill, BsCreditCard2BackFill, BsFillPersonFill} from 'react-icons/bs';
 import {FaWrench, FaFile, FaRocket, FaQuestionCircle, FaHome} from 'react-icons/fa';
-import { AccPages, Button, Container, Dashboard, Documentation, Items, Logo, LogoWrapper } from '../styles/Sidebar';
+import { AccPages, Button, Container, Dashboard, Documentation, Items, Logo, LogoWrapper } from '../styles/Sidebar.style';
 import logo from '../../assets/images/logo.png';
 import sidebarvector from '../../assets/images/SidebarVector.png';
 
