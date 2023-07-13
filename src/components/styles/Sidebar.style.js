@@ -8,6 +8,7 @@ export const Container = styled.div`
     height:100vh;    
     padding:38px 16px;
     line-height: 150%;
+    background: ${({theme})=> theme.colors.sidebar};
 
 h1{
     color: #2D3748;    
@@ -46,6 +47,7 @@ export const Items = styled.div`
         height: 54px;
         border-radius: 12px;
         background-color: #FFF;
+        color: black;
     }
 `
 
