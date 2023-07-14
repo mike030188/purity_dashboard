@@ -7,7 +7,7 @@ export const NavItems = styled.div`
     width: 100%;    
     padding-top: 20px;
     background: ${({theme})=> theme.colors.header};
-    border:1px solid black;
+    /* border:1px solid black; */
 `
 
 export const Text = styled.div`
@@ -32,7 +32,7 @@ export const Register = styled.div`
     
     /* border: 1px solid black; */
     :hover{
-        cursor:pointer;
+        /* cursor:pointer; */
         color: #4FD1C5;
     }
 `
@@ -43,7 +43,7 @@ export const SearchWrapper = styled.div`
     align-items: center;
     border: 0.5px solid var(--gray-gray-200, #E2E8F0);
     border-radius: 15px;
-    
+    background-color: #FFF;
     
 `
 export const SearchInput = styled.input`

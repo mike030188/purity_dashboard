@@ -27,8 +27,12 @@ const Sidebar = () => {
         </Dashboard>
         <h1>ACCOUNT PAGES</h1>
         <AccPages>
-            <Items><BsFillPersonFill style={{color:'#4FD1C5', marginRight:'10px'}}/>Profile</Items>
-            <Items><FaFile style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign In</Items>
+            <Link  to="/profile" style={{textDecoration:'none'}}>
+                <Items><BsFillPersonFill style={{color:'#4FD1C5', marginRight:'10px'}}/>Profile</Items>
+            </Link>
+            <Link  to="/signin" style={{textDecoration:'none'}}>
+                <Items><FaFile style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign In</Items>
+            </Link>            
             <Items><FaRocket style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign Up</Items>
         </AccPages>
         <Documentation>

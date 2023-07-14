@@ -75,7 +75,7 @@ h3{
 }
 
 p{
-    margin-bottom: 47px;
+    margin-bottom: 17px;
     font-size: 12px;    
     font-weight: 400;   
     color: var(--black-amp-white-white, #FFF); 
