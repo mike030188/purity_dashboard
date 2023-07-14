@@ -4,19 +4,22 @@ export const Wrapper = styled.div`
     display:flex;
     flex-direction:column;
     width:100%;
+    padding-left: 18px;
+    border: 1px solid black;
 `
 export const CardUp = styled.div`
     display: flex;
     justify-content:center;
+    padding-top: 24px;
    
 `
 export const CardBox = styled.div`
     display: flex;    
     flex:1;
     align-items: center;  
-    width:382px;
+    width:282px;
     height:80px;    
-    padding-left: 25px;
+    padding: 0 20px;
     margin-right: ${({mg})=>mg || "24px"};
     border-radius: 15px;
     background: var(--black-amp-white-white, #FFF);

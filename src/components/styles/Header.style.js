@@ -12,7 +12,7 @@ export const NavItems = styled.div`
 
 export const Text = styled.div`
     flex: 1;
-    padding-left: 48px;
+    padding-left: 28px;
     color: var(--gray-gray-400, #A0AEC0);    
     font-size: 12px;    
     font-weight: 400;

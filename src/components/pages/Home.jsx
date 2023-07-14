@@ -18,13 +18,13 @@ const Home = () => {
                 <h5>+55%</h5>
               </div>            
             </Title>
-            <FaWallet 
-              style={{display:'flex', 
-                      flex:'1', 
+            <div style={{display: 'flex', flex:'1', justifyContent:'right'}}>
+              <FaWallet 
+              style={{
                       width:'22.5px',
-                      height:'22.5px',
-                      paddingLeft: '150px', 
-                      color:'#48BB78'}}/>        
+                      height:'22.5px',                     
+                      color:'#48BB78'}}/> 
+            </div>        
         </CardBox>
         <CardBox mid1>        
             <Title>
@@ -34,13 +34,13 @@ const Home = () => {
                 <h5>+5%</h5>
               </div>            
             </Title>
-            <FaWallet 
-              style={{display:'flex', 
-                      flex:'1', 
+            <div style={{display: 'flex', flex:'1', justifyContent:'right'}}>
+              <FaWallet 
+              style={{
                       width:'22.5px',
-                      height:'22.5px',
-                      paddingLeft: '150px', 
-                      color:'#48BB78'}}/>        
+                      height:'22.5px',                     
+                      color:'#48BB78'}}/> 
+            </div>                   
         </CardBox>
         <CardBox mid2>        
             <Title>
@@ -50,13 +50,13 @@ const Home = () => {
                 <h5 style={{color:'red',}}>-14%</h5>
               </div>            
             </Title>
-            <FaWallet 
-              style={{display:'flex', 
-                      flex:'1', 
+            <div style={{display: 'flex', flex:'1', justifyContent:'right'}}>
+              <FaWallet 
+              style={{
                       width:'22.5px',
-                      height:'22.5px',
-                      paddingLeft: '150px', 
-                      color:'#48BB78'}}/>        
+                      height:'22.5px',                     
+                      color:'#48BB78'}}/> 
+            </div>       
         </CardBox>
         <CardBox right>        
             <Title>
@@ -66,13 +66,13 @@ const Home = () => {
                 <h5>+8%</h5>
               </div>            
             </Title>
-            <FaWallet 
-              style={{display:'flex', 
-                      flex:'1', 
+            <div style={{display: 'flex', flex:'1', justifyContent:'right'}}>
+              <FaWallet 
+              style={{
                       width:'22.5px',
-                      height:'22.5px',
-                      paddingLeft: '150px', 
-                      color:'#48BB78'}}/>       
+                      height:'22.5px',                     
+                      color:'#48BB78'}}/> 
+            </div>      
         </CardBox>
       </CardUp>
       
