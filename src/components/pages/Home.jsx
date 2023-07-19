@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from '../header/Header'
-import { CardBox, CardUp, Title, Wrapper } from '../styles/Home.style'
-import { FaWallet } from 'react-icons/fa'
+import { CardBox, CardWrap, FirstCard, Title, Wrapper } from '../styles/Home.style'
+import { FaArrowRight, FaWallet } from 'react-icons/fa';
+import chakra from "../../assets/images/chakra.png";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
     <Wrapper>
       <Header />
       <h1>Dashboard</h1>
-      <CardUp>
+      <CardWrap head>
         <CardBox left>        
             <Title>
               <p>Today’s Money</p>
@@ -74,7 +75,25 @@ const Home = () => {
                       color:'#48BB78'}}/> 
             </div>      
         </CardBox>
-      </CardUp>
+      </CardWrap>
+      <CardWrap mid >
+        <FirstCard left>
+          <div>
+            <p>Built by developers</p>
+            <h4>Purity UI Dashboard</h4>
+            <p>From colors, cards, typography to complex elements,<br />
+                you will find the full documentation.</p>
+            <div>
+              <h6>Read more</h6>
+              <FaArrowRight/>  
+            </div>
+            
+          </div>                  
+        </FirstCard>
+        <FirstCard right>
+          <img src={chakra} alt="chakra" />        
+        </FirstCard>          
+      </CardWrap >
       
     </Wrapper>
   )

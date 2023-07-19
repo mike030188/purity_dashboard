@@ -4,10 +4,10 @@ export const Wrapper = styled.div`
     display:flex;
     flex-direction:column;
     width:100%;
-    padding-left: 18px;
+    padding:0 18px;
     border: 1px solid black;
 `
-export const CardUp = styled.div`
+export const CardWrap = styled.div`
     display: flex;
     justify-content:center;
     padding-top: 24px;
@@ -48,4 +48,11 @@ export const Title = styled.div`
         font-size: 14px;
         line-height: 140%;
     }
+`
+export const FirstCard = styled.div`
+    display: flex;
+    flex:1;
+    width: ${({wd})=>wd || "992px"};
+    height: ${({hg})=>hg || "291px"};
+    border:1px solid black;
 `

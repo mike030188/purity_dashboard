@@ -13,7 +13,7 @@ body{
     background: ${({theme})=> theme.colors.body};
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
-    padding: 0 18px;
+    padding: 0;
 }
 
 p{
