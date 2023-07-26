@@ -90,15 +90,17 @@ export const Button = styled.button`
     padding: 0px 8px;
     justify-content: center;
     align-items: center;
-    background: var(--black-amp-white-white, #FFF);
-    color: var(--gray-gray-700, #2D3748);
+    background: ${({bg})=>bg || '#FFF'};
+    color: ${({clr})=> clr || '#2D3748'};
     text-align: center;
     font-size: 10px;
     font-weight: 700;
     cursor: pointer;
 
+
 &:hover{
     background-color: violet;
     color: var(--black-amp-white-white, #FFF);
+    transition: 0.5s ease all;
 }
 `
