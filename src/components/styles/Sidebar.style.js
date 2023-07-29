@@ -83,15 +83,15 @@ p{
 `
 export const Button = styled.button`
     display:flex;
-    width:186px;
-    height:37px;
+    width: ${({wd})=>wd || '186px'};
+    height: ${({hg})=>hg || '37px'};
+    background: ${({bg})=>bg || '#FFF'};
+    color: ${({clr})=> clr || '#2D3748'};
     border-radius:12px;
     border: none;
     padding: 0px 8px;
     justify-content: center;
-    align-items: center;
-    background: ${({bg})=>bg || '#FFF'};
-    color: ${({clr})=> clr || '#2D3748'};
+    align-items: center;    
     text-align: center;
     font-size: 10px;
     font-weight: 700;

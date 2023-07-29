@@ -8,7 +8,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 export default function AuthHeader() {
     return (        
         <NavbarWrapper>
-            <LogoWrapper>
+            <LogoWrapper style={{flex:'1'}}>
                 <Logo src={logo} alt="" width="22px" height="23px"/>
                 <h1>PURITY UI DASHBOARD</h1>
             </LogoWrapper>
@@ -26,7 +26,7 @@ export default function AuthHeader() {
                     <NavItems><FaFile style={{marginRight:'10px'}}/>Sign In</NavItems>
                 </Link> 
             </NavMenu>
-            <Button bg='black' clr='white'>Free Download</Button>
+            <Button bg='black' clr='white' hg='35px' wd='134px' style={{flex:'1'}}>Free Download</Button>
         </NavbarWrapper>        
     )
 }
