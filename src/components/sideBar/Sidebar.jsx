@@ -32,8 +32,10 @@ const Sidebar = () => {
             </Link>
             <Link  to="/signin" style={{textDecoration:'none'}}>
                 <Items><FaFile style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign In</Items>
-            </Link>            
-            <Items><FaRocket style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign Up</Items>
+            </Link >  
+            <Link  to="/signup" style={{textDecoration:'none'}}>
+                <Items><FaRocket style={{color:'#4FD1C5', marginRight:'10px'}}/>Sign Up</Items>
+            </Link>
         </AccPages>
         <Documentation>
             <FaQuestionCircle style={{margin:'16px 0 21.5px'}}/>

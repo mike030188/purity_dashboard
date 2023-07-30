@@ -9,6 +9,7 @@ import Profile from './components/pages/Profile';
 import SignIn from './components/pages/SignIn';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import Sidebar from './components/sideBar/Sidebar';
+import SignUp from './components/pages/SignUp';
 
 
 
@@ -42,12 +43,14 @@ function MainApp() {
   
   const toLocate = useLocation();
   const loadingPage = toLocate.pathname === "/signin"
+  const loadingPage1 = toLocate.pathname === "/signup"
+
 
   return(
 
     
     <React.Fragment>
-      {!loadingPage && <Sidebar/>}
+      {!loadingPage && !loadingPage1 && <Sidebar/>}
       
         
         <Routes>
@@ -55,6 +58,8 @@ function MainApp() {
           <Route path="/tables" element={<Tables/>} />
           <Route path="/profile" element={<Profile/>} />
           <Route path="/signin" element={<SignIn/>} />
+          <Route path="/signup" element={<SignUp/>} />
+
         </Routes>
       
       
