@@ -2,16 +2,15 @@ import styled from 'styled-components';
 
 export const Main = styled.div`
 display: flex;
+flex: 3; 
 flex-direction: column;
-justify-content: center;
-/* align-items: center; */
-padding-left: 466px; 
-border: 1px solid black;
+justify-content: center; 
 width: 100%;
+
 `
 export const SignInWrapper = styled.div`      
 display:flex;    
-    
+   
 `
 export const RegisterWrap = styled.div`
 display: flex;
