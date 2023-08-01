@@ -4,6 +4,7 @@ import signupBg from '../../assets/images/BgSignUp.png'
 export const SignUpWrapper = styled.div`
 background-image: url(${signupBg});
 background-position: cover;
+background-size: center;
 background-repeat: no-repeat;
 border-radius: 15px;
 width: 100%;

@@ -25,10 +25,10 @@ const SignIn = () => {
               </FormControl>
               <div style={{display:'flex', alignItems: 'center'}}>
                 <ToggleSwitch>
-                <input type="checkbox" checked/>
-                <span class="slider round"></span>              
+                <input type="checkbox" id='checked'/>
+                <label for="checked"></label>              
                 </ToggleSwitch>
-                <label htmlFor="">Remember me</label>
+                <label htmlFor="" style={{marginLeft:'10px'}}>Remember me</label>
               </div>
               <Button wd='350px' hg='45px' bg='#4FD1C5' 
                   style={{marginTop: '36.5px', 
@@ -36,14 +36,14 @@ const SignIn = () => {
                           marginBottom: '22px',
                           fontSize:'18px'
                           }}>Sign In</Button>
-              <p style={{marginLeft:'70px'}}>Don't have an account? <Link style={{color:'#4FD1C5', textDecoration:'none'}}>Sign up</Link></p>
+              <p style={{marginLeft:'70px'}}>Don't have an account? <Link to='/signup' style={{color:'#4FD1C5', textDecoration:'none'}}>Sign up</Link></p>
             </RegisterWrap>  
 
             <Img src={signInImage} alt='chakra logo'/>              
         </SignInWrapper>
 
-        <AuthHeader/>
-        <h1 style={{marginTop:'900px'}}></h1>
+        <AuthHeader signin/>
+        <h1 style={{marginTop:'900px', color:'white'}}>...</h1>
         <Footer/>
       </Main >
     </>
