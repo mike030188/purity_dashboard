@@ -1,22 +1,22 @@
-import AuthHeader from "../header/AuthHeader";
-import { SignUpWrapper } from "../styles/SignUp.style";
+import SignUpNav from "../header/SignUpNavbar";
+import { Flex, MainFlex, SignUpWrapper } from "../styles/SignUp.style";
 
 
 export default function SignUp () {
-    return (
-        <>
-            <SignUpWrapper>
-                <div></div>
-                <div>
-                    Salom
-                    <AuthHeader signup/>
-                </div>
-                <div></div>
-                
-                
-            </SignUpWrapper>
-            
-        </>
+    return (    
+        <SignUpWrapper>
+            <div style={{padding:'0 490px'}}>
+                {/*  <Flex></Flex> */}
+                <MainFlex>
+                    <SignUpNav/>
+                    <div></div>
+                    <div></div>
+                    
+                </MainFlex>
+                {/* <Flex></Flex>  */} 
+            </div>
+                    
+        </SignUpWrapper>      
         
     )
 }
