@@ -5,6 +5,7 @@ export const SignUpWrapper = styled.div`
 background-image: url(${signupBg});
 background-position: center;
 background-repeat: no-repeat;
+background-size: cover;
 border-radius: 15px;
 width: 100%;
 height: 521px;
@@ -18,5 +19,11 @@ flex: 1;
 ` */
 export const MainFlex = styled.div`
 display: flex;
+flex-direction: column;
 flex: 2;
+`
+export const Flex = styled.div`
+display: flex;
+flex:1;
+width:450px;
 `
