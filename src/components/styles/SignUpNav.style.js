@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Navbar = styled.div`
 display: flex;
-margin-top: 40px;
+margin-top: 10px;
 `
 
 export const NavLeft = styled.div`

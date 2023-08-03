@@ -37,10 +37,11 @@ p{
 export const FormControl = styled.div`
 display: flex;
 flex-direction: column;
+justify-content: space-around;
 font-size: 14px;
 font-weight: 400;
 line-height: 140%; /* 19.6px */
-margin-bottom: 24px;
+/* margin-bottom: 24px; */
 
 
 
@@ -78,7 +79,7 @@ display: flex;
 align-items: center;
 justify-content: left;
 padding: 5px 0;
-margin: 20px 0;
+/* margin: 20px 0; */
 
 label{
 background-color: #d2d2d2;

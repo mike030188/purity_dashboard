@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div style={{display: 'flex', width:'100%'}}>
+    <div style={{display: 'flex', width:'100%', justifyContent:'center', alignItems: 'center'}}>
         <Copyright>
             &copy; {1900 + new Date().getYear()},{" "}
             <span>Made with ❤️ by</span>
@@ -15,9 +15,9 @@ const Footer = () => {
             <span>for a better web</span>
         </Copyright>
         <MenuItems>
-            <Items style={{marginRight:'44px'}}>Creative Tim</Items>
-            <Items style={{marginRight:'44px'}}>Simmmple</Items>
-            <Items style={{marginRight:'44px'}}>Blog</Items>
+            <Items>Creative Tim</Items>
+            <Items>Simmmple</Items>
+            <Items>Blog</Items>
             <Items>License</Items>
         </MenuItems>
     </div>
